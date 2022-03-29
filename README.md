@@ -20,8 +20,7 @@ JavaScript
 
 ## Demo
 
-Insert gif or link to demo
-
+https://to-do-list-project-heroku.herokuapp.com/
 
 ## Deployment
 
