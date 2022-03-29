@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: cursive;
+   
+
+}
+main{
+    margin: 0 auto;
+
+}
+h1{
+    font-size: 58px;
+}
+
+
+.dark-mode {
+    background-image: url('../src/Media/back8.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+  }
+  
+
+.light-mode {
+    background-image: url('../src/Media/back3.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+  }
+
+
+ 
+
+.toDo {
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    float: right;  
+    margin-right: 220px; 
+}
+
+.leftTitle{
+    text-align: right;
+    padding-right: 360px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    color: rgb(245, 243, 243);
+
+
+}
+.rightTitle{
+    text-align: right;
+    padding-right: 360px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    color: rgb(73, 62, 62);
+
+
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    list-style: none;
+    text-align: left;
+    color: black;
+}
+
+li,
+li span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.done {
+    text-decoration: line-through;
+    font-style: italic;
+
+}
+
+li .x {
+    background-color: #d5e5f4;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: none;
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    padding-top: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    color:red;
+    transition: .2s;
+}
+
+.x:hover {
+    background-color: #cca480;
+    color: white;
+}
+
+
+form {
+    border: 5px solid#cca480;
+    border-radius: 15px;
+    display: flex;
+}
+input[type=checkbox] {
+    accent-color:#cca480;
+  }
+
+input[type='text'] {
+    width: calc(100% - 50px);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+input[type='submit'] {
+    width: 53px;
+    height: 42px;
+    background-color:#cca480;
+    border: none;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    padding: 0px;
+    margin: -1px;
+
+}
+
+hr {
+    border-bottom: 1px solid#cca480;
+}
+.clock {
+    font-family: 'Orbitron', sans-serif;
+   text-shadow: 0 0 20px  #cca480,  0 0 20px #cca480;
+  color: #daf6ff; /* almost cyan colored*/
+    color: #131111;
+    text-align: center;
+    padding-left: 450px;
+    padding-top: 10px;
+
+}
+    .time {
+        letter-spacing: 0.05em;
+        font-size:25px;
+        padding: 5px 0;
+
+    }
+ 
