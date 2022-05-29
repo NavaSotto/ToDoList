@@ -1,8 +1,7 @@
 
 # ToDo-List
 
-ToDo list is a simple web application to save Your daily tasks in order not to miss anything.
-
+A web application platform that allows you to save your daily tasks so as not to miss anything.
 ## Features
 Pick a date from callendar
 Add new task
